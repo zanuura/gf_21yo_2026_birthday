@@ -1,0 +1,50 @@
+export const wishes = [
+  { num: '01', icon: '🌹', text: 'Selalu sehat dan bahagia' },
+  { num: '02', icon: '⭐', text: 'Impian dan cita-citamu tercapai' },
+  { num: '03', icon: '💪', text: 'Semakin kuat menghadapi rintangan' },
+  { num: '04', icon: '📚', text: 'Sukses dalam pendidikan dan karier' },
+  { num: '05', icon: '💕', text: 'Selalu dikelilingi orang-orang yang mencintaimu' },
+  { num: '06', icon: '✈️', text: 'Bisa pergi ke tempat yang kamu impikan' },
+  { num: '07', icon: '😊', text: 'Senyummu tidak pernah hilang' },
+  { num: '08', icon: '🌸', text: 'Berkembang menjadi versi terbaikmu' },
+  { num: '09', icon: '🍀', text: 'Selalu beruntung di setiap langkahmu' },
+  { num: '10', icon: '💖', text: 'Hidup penuh cinta dan kasih sayang' },
+  { num: '11', icon: '🎯', text: 'Fokus pada hal yang membuatmu bahagia' },
+  { num: '12', icon: '🌙', text: 'Mimpimu selalu indah setiap malam' },
+  { num: '13', icon: '🦋', text: 'Bebas dan percaya diri jadi dirimu sendiri' },
+  { num: '14', icon: '🎵', text: 'Hidupmu selalu penuh musik dan tawa' },
+  { num: '15', icon: '🌟', text: 'Bersinar terang di antara banyak orang' },
+  { num: '16', icon: '🍰', text: 'Semua yang manis selalu ada di hidupmu' },
+  { num: '17', icon: '🌺', text: 'Kecantikanmu selalu terpancar dari dalam hati' },
+  { num: '18', icon: '🤗', text: 'Selalu ada pelukan hangat saat kamu butuh' },
+  { num: '19', icon: '💎', text: 'Kamu adalah permata paling berharga' },
+  { num: '20', icon: '🌈', text: 'Setelah hujan, selalu ada pelangi untukmu' },
+  { num: '21', icon: '🎊', text: 'Usia 21 adalah awal petualangan terbaikmu!' },
+];
+
+export const messageCards = [
+  {
+    id: 1,
+    icon: '🌹',
+    title: 'Selamat Ulang Tahun',
+    text: 'Hei Lita... selamat ulang tahun ke-21 ya sayang! 🥺💖 Di hari yang spesial ini, aku cuma mau bilang betapa bersyukurnya aku punya kamu di hidupku.',
+  },
+  {
+    id: 2,
+    icon: '⭐',
+    title: 'Kamu Istimewa',
+    text: 'Kamu itu kayak bintang yang paling terang di langitku. Senyummu selalu bisa bikin hariku jadi lebih indah, dan tawamu adalah suara yang paling aku suka di dunia ini.',
+  },
+  {
+    id: 3,
+    icon: '💝',
+    title: 'Doa Untukmu',
+    text: 'Semoga di usia 21 tahun ini, semua impian dan cita-citamu tercapai. Semoga kamu selalu sehat, bahagia, dan terus berkembang menjadi versi terbaikmu. Aku selalu ada untukmu!',
+  },
+  {
+    id: 4,
+    icon: '🦋',
+    title: 'Bersamamu',
+    text: 'Terima kasih sudah mau ada di sampingku, sayang. Setiap momen bersamamu selalu jadi kenangan yang paling berharga. Aku mencintaimu lebih dari yang bisa aku ungkapkan.',
+  },
+];

@@ -1,0 +1,56 @@
+.message-section { background: linear-gradient(160deg, #fef2f4 0%, #fde8ec 50%, #fcd4db 100%); }
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.msg-card {
+  background: rgba(255,255,255,0.55);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 2px solid rgba(255,182,193,0.6);
+  border-radius: 28px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(232,39,75,0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  transform: translateY(40px);
+}
+.msg-card.visible {
+  animation: fade-up-in 0.6s ease forwards;
+}
+.msg-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 18px 45px rgba(232,39,75,0.22);
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+  animation: float 3s ease-in-out infinite;
+}
+
+.msg-card h3 {
+  font-family: var(--font-cute);
+  font-size: 1.5rem;
+  color: var(--red-deep);
+  margin-bottom: 0.75rem;
+}
+.msg-card p {
+  color: var(--text-mid);
+  font-size: 0.97rem;
+  line-height: 1.7;
+}
+
+@keyframes fade-up-in {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+  .cards-grid { grid-template-columns: 1fr; }
+}

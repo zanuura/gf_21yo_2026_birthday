@@ -1,0 +1,56 @@
+.wishes-section { background: linear-gradient(160deg, #fff5f7 0%, #ffe8ed 60%, #ffd6e0 100%); }
+
+.wishes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.wish-item {
+  background: rgba(255,255,255,0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1.5px solid rgba(255,182,193,0.6);
+  border-radius: 18px;
+  padding: 1.2rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(232,39,75,0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  opacity: 0;
+  transform: translateY(20px) scale(0.95);
+}
+.wish-item.visible {
+  animation: pop-up 0.5s cubic-bezier(0.175,0.885,0.32,1.275) forwards;
+}
+.wish-item:hover {
+  transform: translateY(-5px) scale(1.04);
+  box-shadow: 0 12px 28px rgba(232,39,75,0.2);
+}
+.wish-num {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  background: linear-gradient(135deg, var(--red), var(--red-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+.wish-icon {
+  font-size: 1.6rem;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+.wish-text {
+  font-size: 0.88rem;
+  color: var(--text-mid);
+  line-height: 1.5;
+}
+
+@keyframes pop-up {
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@media (max-width: 600px) {
+  .wishes-grid { grid-template-columns: repeat(2, 1fr); }
+}

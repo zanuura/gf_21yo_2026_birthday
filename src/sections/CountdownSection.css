@@ -1,0 +1,67 @@
+.countdown-section { background: linear-gradient(160deg, #fff5f7 0%, #ffe8ed 60%, #ffd6e0 100%); }
+
+.countdown-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.cd-box {
+  background: rgba(255,255,255,0.55);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 2px solid rgba(255,182,193,0.6);
+  border-radius: 28px;
+  padding: 1.5rem 2rem;
+  min-width: 110px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(232,39,75,0.15);
+  transition: transform 0.3s ease;
+}
+.cd-box:hover { transform: translateY(-6px) scale(1.04); }
+.cd-num {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 3.5rem;
+  background: linear-gradient(135deg, var(--red), var(--red-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+}
+.cd-label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--text-soft);
+  margin-top: 0.4rem;
+}
+.cd-sep {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  color: var(--red-light);
+  line-height: 1;
+  margin-top: -0.5rem;
+}
+.birthday-arrived {
+  margin-top: 2rem;
+  background: linear-gradient(135deg, var(--red), var(--red-light));
+  color: white;
+  padding: 1.5rem 2rem;
+  border-radius: 28px;
+  font-family: var(--font-cute);
+  font-size: 1.6rem;
+  box-shadow: 0 10px 30px var(--shadow);
+  animation: heartbeat 1s ease-in-out infinite;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .countdown-grid { gap: 0.6rem; }
+  .cd-box { min-width: 75px; padding: 1rem 0.8rem; }
+  .cd-num { font-size: 2.5rem; }
+  .cd-sep { font-size: 2rem; }
+}
