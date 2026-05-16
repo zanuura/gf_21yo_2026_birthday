@@ -30,34 +30,36 @@ export default function LetterSection() {
                 <span className="letter-to">Untuk: Nurlita Putri 🌹</span>
               </div>
               <div className="letter-body">
-                <p>Sayang yang paling aku cintai,</p>
+                <p>To my favorite person everr, Lita! ✨</p>
                 <br />
                 <p>
-                  Selamat ulang tahun yang ke-21! 🎉 Waktu terasa begitu cepat
-                  berlalu, dan setiap harinya aku selalu bersyukur bisa mengenal
-                  dan mencintaimu.
+                  Happy level 21! 🎉 Sumpah ga kerasa banget waktu jalan cepet amat.
+                  Tiap hari aku tuh lowkey selalu bersyukur banget bisa bareng sama kamu, 
+                  kayak, you're literally the best thing that ever happened to me fr fr. 😭💖
                 </p>
                 <br />
                 <p>
-                  Kamu tahu tidak? Setiap kali aku melihat kamu senyum, dunia
-                  ini terasa jauh lebih baik. Kamu adalah alasan kenapa aku
-                  selalu semangat menjalani hari.
+                  Kamu tau ga sih? Tiap liat kamu senyum tuh auranya positive vibes banget,
+                  bikin mood aku yang tadinya minus langsung stonks! 
+                  Kamu tuh alasan aku selalu semangat, no cap. 
                 </p>
                 <br />
                 <p>
-                  Di hari ulang tahunmu yang spesial ini, aku berharap semua
-                  yang kamu impikan akan terwujud. Kamu pantas mendapatkan
-                  semua kebaikan di dunia ini, Lita.
+                  Di hari ultah kamu yang ke-21 ini, semoga semua yang kamu manifest 
+                  segera kejadian yaa. Semoga di umur yang baru ini kamu makin glowing, 
+                  dilancarin semua urusannya, rezekinya ngalir terus, dan dijauhkan dari 
+                  segala bad vibes. You deserve the world and all the good stuff in it, 
+                  periodt. 
                 </p>
                 <br />
                 <p>
-                  Tetaplah menjadi dirimu yang imut, ceria, dan selalu bikin
-                  aku jatuh cinta setiap harinya. Aku sangat mencintaimu,
-                  dan aku berjanji akan selalu ada untukmu. 💕
+                  Plis stay being your cute, slay, and cheerful self yang selalu 
+                  bikin aku salting tiap hari. I love you 3000, and I'll always be 
+                  your number one support system amiiinnn! 🫶💕
                 </p>
                 <br />
-                <p>Dengan cinta yang tak terbatas,</p>
-                <p className="letter-sign">Yang selalu mencintaimu 💖</p>
+                <p>With all my love and pookie energy,</p>
+                <p className="letter-sign">Your number 1 fanboy 💖</p>
               </div>
             </div>
           )}
