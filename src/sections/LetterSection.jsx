@@ -53,6 +53,13 @@ export default function LetterSection() {
                 </p>
                 <br />
                 <p>
+                  Aku juga mau minta maaf yaa kalau selama ini aku masih banyak kurangnya 
+                  dan belum bisa jadi pasangan yang ideal buat Nurlita Putri. Tapi beneran deh, 
+                  I'm always trying my bestn walau terkdang malah jadi tambah buruuk, dan aku bakal terus belajar buat selalu bikin kamu bahagia, 
+                  because you literally deserve the absolute best. 🥺🙏💖
+                </p>
+                <br />
+                <p>
                   Plis stay being your cute, slay, and cheerful self yang selalu 
                   bikin aku salting tiap hari. I love you 3000, and I'll always be 
                   your number one support system amiiinnn! 🫶💕
